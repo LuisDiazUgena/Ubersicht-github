@@ -8,15 +8,17 @@ refreshFrequency: 3600000 # 1 hour
 
 style: """
 position: absolute
-bottom: 10px
+bottom: 90px
 left: 330px
 
 .container
   opacity:0.8
   font: 13px/1.4 Helvetica, arial, freesans, clean, sans-serif, "Segoe UI Emoji", "Segoe UI Symbol"
+  border-radius 5px
+  background rgba(#000, .5)
 
 h3
-  color: #000000
+  color: #fff
   margin:0px
 
 .calendar-graph
@@ -31,7 +33,7 @@ h3
 
   .js-calendar-graph-svg
     .month, .wday
-      fill: #000000
+      fill: #fff
 """
 
 render: (output) -> """
